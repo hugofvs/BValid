@@ -1,0 +1,53 @@
+.hValidatorTip {
+	position:absolute;
+	z-index:9999;
+	color:#fff;
+	font-size:10px;
+	width:181px;
+	cursor: pointer;
+	
+}
+
+.hValidatorTip .tipExtremes{
+	width: 181px;
+	height: 10px;
+	background: center center transparent no-repeat;
+}
+
+
+.hValidatorTip .tipBody {
+	background: repeat-y center center transparent url('img/center.png');;
+	padding: 5px 5px 5px 15px;
+}
+
+
+.hValidatorTip .tip_bottom_bottom	{ background-image: url('img/bottom-bottom.png'); }
+.hValidatorTip .tip_bottom_left		{ background-image: url('img/bottom-left.png'); }
+.hValidatorTip .tip_bottom_right	{ background-image: url('img/bottom-right.png'); }
+.hValidatorTip .tip_center			{ background-image: url('img/center.png'); }
+.hValidatorTip .tip_top_right		{ background-image: url('img/top-right.png'); }
+.hValidatorTip .tip_top_left		{ background-image: url('img/top-left.png'); }
+.hValidatorTip .tip_top_top			{ background-image: url('img/top-top.png'); }
+
+
+
+
+
+/*CLASSES que o utilizador pode usar*/
+
+.bvalidator_error{
+	border: 1px solid #ff0000 !important;
+}
+
+.bvalidator_errordiv{
+	clear: both;
+	display: block;
+	width: auto;
+	height: 15px;
+	line-height: 15px;
+	vertical-align: middle;
+	color: #ff0000;
+	font-size: 11px;
+	text-align: left;
+	margin-left: 153px;
+}

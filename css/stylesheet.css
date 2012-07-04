@@ -1,0 +1,68 @@
+* {margin: 0; padding: 0; border: 0;}
+
+html, body {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	background-color: #ffffff;
+}
+
+a {color: #333333; text-decoration: none;}
+
+.center{margin-left: auto; margin-right: auto;}
+
+.clear{clear:both;}
+
+
+form{width: 600px;}
+
+p{font-size: 13px; margin-bottom: 10px;}
+
+	p *{display: inline-block; text-align: left;}
+	
+	p label.label{font-size: 13px; width: 150px;}
+	
+	p textarea{
+		width: 300px;
+		height: 50px;
+		background-color: #f6f6f6;
+		border: 1px solid #666666;
+	}
+	p textarea:focus{background-color: #ffffff; border: 1px solid #cb4a35;}
+	
+	p .textBox{
+		height: 18px;
+		width: 300px;
+		background-color: #f6f6f6;
+		border: 1px solid #666666;
+		line-height: 18px;
+		vertical-align: middle;
+	}
+	p .textBox:focus{background-color: #ffffff; border: 1px solid #cb4a35;}
+
+
+	p .button{
+		padding: 7px 10px;
+		font-size: 15px;
+		background-color: #3e3e3e;
+		color: #ffffff;
+		border: 0px;
+		cursor: pointer;
+		text-transform: uppercase;
+		float: right;
+		margin-right: 12px;
+		text-align: center;
+	}
+	p .button:hover{background-color: #cb4a35;}
+
+
+div.error_board{
+	width: 650px;
+	height: 60px;
+	border: 1px solid #ff0000;
+	background-color: #ffc0c0;
+	text-align: center;
+	color: #ff0000;
+	display: none;
+	margin: 20px auto;
+	line-height: 60px;
+	vertical-align: middle;
+}
